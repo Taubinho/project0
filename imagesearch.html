@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Set viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Link the stylsheet -->
+        <link rel="stylesheet" href="styles.css"/>
+
         <title>Search</title>
     </head>
     <body>
-        <div calss="banner">
-            <a href="index.html">Google search</a>            
-            <a href="imagesearch.html">Image Search</a>
-            <a href="advancedsearch.html">Advanced Search</a>            
+        <div class="header">
+            <div class="header-links">
+                <a href="index.html">Google search</a>            
+                <a href="imagesearch.html">Image Search</a>
+                <a href="advancedsearch.html">Advanced Search</a>                
+            </div>            
         </div>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="hidden" name="tbm" value="isch">
-            <input type="submit" value="Image Search">
-        </form>
+        <div class="search-container">            
+            <img src="google-logo-5.png" alt="Google logo"/> 
+            <form action="https://google.com/search">
+                <div class="search-field">                
+                    <input type="text" name="q">
+                </div>
+                <input type="hidden" name="tbm" value="isch">
+                <input type="submit" value="Image Search">
+            </form>
+        </div>
     </body>
 </html>
