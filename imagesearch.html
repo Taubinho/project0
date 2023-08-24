@@ -10,6 +10,7 @@
         <title>Search</title>
     </head>
     <body>
+        <!-- a header with links to each of the pages -->
         <div class="header">
             <div class="header_links">
                 <a class="header_links" href="index.html">Google search</a>
@@ -17,6 +18,7 @@
                 <a class="header_links" href="advancedsearch.html">Advanced Search</a>
             </div>          
         </div>
+        <!-- the search container -->
         <div class="search">            
             <img src="google-logo-5.png" alt="Google logo"/> 
             <form action="https://google.com/search">
@@ -24,6 +26,8 @@
                     <input type="text" name="q">
                 </div>
                 <div class="buttons">
+
+                    <!-- added a "hidden" button that adds the value to the search that links to google image search (value=s"isch") -->
                     <input type="hidden" name="tbm" value="isch">
                     <input type="submit" value="Image Search">
                 </div>

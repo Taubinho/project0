@@ -10,6 +10,7 @@
         <title>Advanced search</title>
     </head>
     <body>
+        <!-- a header with links to each of the pages -->
         <div class="header">
             <div class="header_links">
                 <a class="header_links" href="index.html">Google search</a>
@@ -21,45 +22,57 @@
         <div class="header_advanced_logo">
             <img src="google-logo-5.png" alt="Google logo"/>
         </div>
+
+        <!-- subtitle to mimic the google advanced search page -->
         <div class="header_subtitle">
             <label>Advanced Search</label>
         </div>
+
+        <!-- just a line -->
         <div class="separator"></div>
-        <!-- SEARCH CONTAINER START -->
+
+        <!-- advanced search container -->
         <div class="advanced_search">
             <form action="https://www.google.com/search" method="get">
                 <label>Find pages with...</label>
+
+                <!-- a div to "push" the next label to the right -->
                 <div class="whitespace"></div>
+
                 <label>To do this in the search box.</label>
-                <div class="form_group">
+
+                <!-- different options for the advanced search -->
+                <div class="form">
                     <label>All these words:</label>
                     <input type="text" name="as_q">
-                    <div class="clarification">
+                    <div class="explain">
                         <p>Type the important words: <span class="monospace">tri-colour rat terrier</span></p>
                     </div>
                 </div>
-                <div class="form_group">
+                <div class="form">
                     <label>This exact word or phrase:</label>
                     <input type="text" name="as_epq">
-                    <div class="clarification">
+                    <div class="explain">
                         Put exact words in quotes: <span class="monospace">"rat terrier"</span>
                     </div>
                 </div>
-                <div class="form_group">
+                <div class="form">
                     <label>Any of these words: </label>
                     <input type="text" name="as_oq">
-                    <div class="clarification">
+                    <div class="explain">
                         Type OR between all the words you want: <span class="monospace">miniature OR standard</span>
                     </div>
                 </div>
-                <div class="form_group">
+                <div class="form">
                     <label>None of these words:</label>
                     <input type="text" name="as_eq">
-                    <div class="clarification">
+                    <div class="explain">
                         Put a minus sign just before words that you don't want: <span class="monospace">-rodent, -"Jack Russell"</span>
                     </div>
                 </div>
-                <div class="form_group">
+
+                <!-- The blue advanced search button -->
+                <div class="form">
                     <label></label>
                     <div class="right_align">
                         <input type="submit" class="buttons_blue" value="Google Advanced Search">

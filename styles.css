@@ -9,36 +9,37 @@ body {
 }
 .advanced_search label {
   display: inline-block;
-  width: 16%;
-  font-size: 20px;
+  width: 15%;
+  font-size: 22px;
 }
 .advanced_search .whitespace {
-  display: inline-block;
   width: 50%;
+  display: inline-block;
 }
-.advanced_search .form_group {
+.advanced_search .form {
   display: flex;
   align-items: center;
   margin-top: 10px;
   padding: 10px 0;
 }
-.advanced_search .form_group label {
-  width: 10%;
-  font-size: 14px;
-}
-.advanced_search .form_group input[type=text] {
+.advanced_search .form input[type=text] {
   width: 49%;
   padding: 2px 0;
 }
-.advanced_search .form_group .clarification {
-  font-size: 11px;
-  width: 30%;
-  margin-left: 1%;
+.advanced_search .form label {
+  width: 12%;
+  font-size: 16px;
 }
-.advanced_search .form_group .clarification .monospace {
+.advanced_search .form .explain {
+  width: 35%;
+  font-size: 11px;
+  margin: 3px;
+}
+.advanced_search .form .explain .monospace {
   font-family: monospace;
 }
-.advanced_search .form_group .right_align {
+
+.right_align {
   width: 50%;
   display: flex;
   justify-content: flex-end;

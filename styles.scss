@@ -9,49 +9,53 @@ body{
 
     label {
         display: inline-block;
-        width: 16%;
-        font-size: 20px;
+        width: 15%;
+        font-size: 22px;
     }
 
     .whitespace {
-        display: inline-block;
         width: 50%;
+        display: inline-block;
     }
 
-    .form_group {
+    .form {
         display: flex;
         align-items: center;
         margin-top: 10px;
         padding: 10px 0;
 
-        label {
-            width: 10%;
-            font-size: 14px;
-        }
+        
 
         input[type="text"] {
             width: 49%;
             padding: 2px 0;
         }
 
-        .clarification {
+
+        label {
+                    width: 12%;
+                    font-size: 16px;
+                }
+        .explain {
+            width: 35%;
             font-size: 11px;
-            width: 30%;
-            margin-left: 1%;
+            margin: 3px;
 
             .monospace {
                 font-family: monospace;
             }
         }
 
-        .right_align {
+        
+    }
+}
+
+
+.right_align {
             width: 50%;
             display: flex;
             justify-content: flex-end
         }
-    }
-}
-
 .buttons{
     display: flex;
     flex-direction: row;
